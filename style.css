@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+
+.not-found {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+
+#dummy {
+   
+   width: 100%;
+   height: auto;
+
+}
+
+
+.container{
+   
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bad-news {
+    font-size: 64px;
+    font-weight: 700;
+    font-family:'Inconsolata', monospace ;
+    margin-bottom: 24px;
+
+}
+
+.the-page {
+   font-size: 24px;
+   font-weight: 400;
+   margin-bottom: 24px;
+}
+#button {
+    background-color:#333333 ;
+    color: #fff;
+    padding: 24px 43px;
+}
+
+.img-container{
+    margin-right: 38px;
+}
+
+.foot{
+    margin-bottom: 100px;
+    text-align: center;
+}
+@media screen and  (max-width:992px){
+    .container{
+        flex-wrap: wrap;
+        padding: 24px;
+    }
+}
+    
